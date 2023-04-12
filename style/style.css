@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap");
+.body {
+  margin: 0;
+  padding: 0;
+}
+
 .center {
   padding-left: calc(50% - 720px);
   padding-right: calc(50% - 720px);
@@ -27,11 +32,24 @@
 .navigation {
   display: flex;
   justify-content: space-between;
+  height: 82px;
 }
 
 .left-block-nav {
   display: flex;
   align-items: center;
+}
+
+.button-nav {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  color: #35312e;
+  padding: 0 15px;
 }
 
 .middle-block-nav {
@@ -52,4 +70,46 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.block-img {
+  height: 605px;
+  background: url(../image/Rectangle.png);
+}
+.block-img__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #35312e;
+}
+.block-img__head {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 72px;
+  letter-spacing: 1px;
+  color: #35312e;
+}
+.block-img__button {
+  background: #d37657;
+  border-radius: 2px;
+  width: 248px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.block-img__button__text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */
